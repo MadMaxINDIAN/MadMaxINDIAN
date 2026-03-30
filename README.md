@@ -1,74 +1,84 @@
 ## Hi there 👋
 
-I'm **Naman Khater**, a Software Engineer passionate about building scalable solutions at the intersection of technology and finance.
+I'm **Naman Khater**, a Full-Stack Software Engineer at GEP Worldwide, building scalable enterprise solutions with Angular, React, ASP.NET, and Node.js. Passionate about clean architecture, Generative AI, and developer experience.
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/naman-22-khater/)
-- 📧 naman22khater@gmail.com
-- 📞 (+91) 958-604-8530
+- 🌐 [Portfolio](https://namankhater.tech/)
+- 📧 [naman22khater@gmail.com](mailto:naman22khater@gmail.com)
+- 📄 [Resume (PDF)](./Naman_Khater_Resume.pdf)
 
 ---
 
-### 👨‍💻 Profile
+### 👨‍💻 About Me
 
-Engineered scalable low-code and full-stack applications using Angular, ASP.NET, and modern web frameworks. Reduced feature delivery time by 30%, boosted system performance by 20%, and implemented AI-driven modules that maximized user interaction efficiency by 40%. Delivered production-grade solutions in e-commerce and loan management, reducing transaction and processing times by up to 15% through optimized background automation.
+Full-stack Software Engineer with **3+ years of experience** building scalable enterprise applications. Proven track record of accelerating feature delivery by 30%, improving system performance by 20%, and integrating Generative AI capabilities that boosted product efficiency by 40%. Experienced in managing end-to-end development lifecycles, reducing technical debt, and collaborating cross-functionally to deliver client-facing solutions.
 
 ---
 
 ### 💼 Experience
 
-**GEP Solutions | Software Engineer**  
-Mumbai, India | 2023.06 - Present
+**Software Engineer | GEP Solutions**
+Navi Mumbai, India | Jun 2023 - Present
 
-- Engineered low-code solutions using Angular and ASP.NET, accelerating feature development by 30% and streamlining client customization.
-- Resolved complex design constraints in low-code modules, managing the full development lifecycle and enhancing system scalability by 20%.
-- Partnered with the Generative AI team to deliver AI-powered upgrades that improved usability and elevated product efficiency by 40%.
-- Refactored and fine-tuned legacy systems, raising code quality standards while reducing technical debt by 25% and bulk processing time by up to 40%.
-- Coordinated with cross-functional teams to translate business requirements into solutions, playing a pivotal role in a record-setting customer onboarding which completed in 20% less time.
+- Engineered low-code solutions using Angular and ASP.NET, accelerating feature development by 30% across 15+ enterprise modules.
+- Owned full development lifecycle from architecture to deployment, enhancing system scalability by 20%.
+- Partnered with the Generative AI team to integrate AI-powered features, improving product efficiency by 40%.
+- Refactored legacy codebases, reducing technical debt by 25% and bulk processing time by 40%.
+- Played a pivotal role in a record-setting customer onboarding completed in 20% less time.
 
----
+**Software Engineer Intern | GEP Worldwide**
+Mumbai, India | May 2022 - Jul 2022
 
-### 🎓 Education
+- Developed UI/UX components and automated API testing using React, Node.js, and Cypress, reducing manual QA effort by 30%.
 
-**Sardar Vallabhbhai National Institute of Technology, Surat, India**  
-B. Tech (Computer Science and Technology), 2019-2023
+**Junior Developer | DSC NIT Surat (Google DSC)**
+Surat, India | Jun 2020 - Jun 2021
 
-- Learnt Data Structures and Algorithms (DSA) and Agile software development methodologies in academic and project work, with the potential to improve software performance and accelerate delivery timelines by up to 25%.
-- Led the Microsoft Student Chapter at NIT Surat, promoting the adoption of emerging technologies among students through workshops, seminars, and hands-on projects impacting over 2000 students.
+- Built web applications and mentored peers in JavaScript development through the Google Developer Student Club.
 
 ---
 
 ### 🚀 Projects
 
-**E-commerce Platform** (2023)  
-- Created a modular website starter template that reduced setup time by 50% for new projects, enabling faster go-to-market for clients.
-- Integrated payment gateways and order management systems, reducing transaction time through background task processing and improving efficiency by 10%–15%.  
-*Skills: ReactJS, NodeJS, MongoDB, Docker, NextJS*
+**Mongo Architect** (Sep 2025 - Dec 2025)
+A visual MongoDB schema modeler that lets developers design database schemas visually and export/import them as JSON files. Available as a VS Code extension.
+*Tech: React.js, MongoDB, JSON, VS Code Extension API*
 
-**Loan Management Software** (2022)  
-- Built a full-stack Loan Management Application, reducing manual tracking by 70% and providing users with a dashboard that elevated loan data accessibility and reporting efficiency.
-- Designed and implemented secure authentication and authorization features, ensuring data privacy and regulatory compliance.
-- Automated loan processing workflows, decreasing manual intervention and reducing processing errors by 60%.
-- Programmed robust reporting tools, enabling stakeholders to generate real-time financial and compliance reports.  
-*Skills: Angular, NodeJS, MongoDB, AWS*
+**E-Commerce Platform** (2023)
+Modular website starter template reducing project setup time by 50%, with integrated payment gateways and order management.
+*Tech: React, Node.js, MongoDB, Docker, Next.js*
+
+**Loan Management Software** (2022)
+Full-stack application reducing manual loan tracking by 70%, with automated workflows cutting processing errors by 60%.
+*Tech: Angular, Node.js, MongoDB, AWS*
 
 ---
 
 ### 🛠️ Skills
 
-- **Programming**: Python, C#, JavaScript
-- **Frontend**: React, Angular, Next.js, HTML, CSS, JavaScript
-- **Backend**: Node.js, Django, ASP.NET
-- **Cloud & Databases**: AWS, Azure, SQL, MongoDB
-- **DevOps**: Docker, Jenkins
-- **Developer Tools**: Postman, Chrome Dev Tools
-- **Version Control**: Git, GitHub
+- **Languages**: Python, Java, C, JavaScript, TypeScript, SQL
+- **Frontend**: React, Angular, Next.js, HTML5, CSS3, Tailwind CSS
+- **Backend**: Node.js, ASP.NET, Django, Spring Boot, REST APIs, GraphQL
+- **Cloud & Databases**: AWS (EC2, S3, Lambda), Azure, MongoDB, PostgreSQL, SQL Server
+- **DevOps & Tools**: Docker, Jenkins, Git, GitHub Actions, CI/CD, Postman
+- **AI/ML**: Generative AI Integration, LLM APIs, Model Context Protocol (MCP)
 
 ---
 
-### 🏅 Positions of Responsibility
+### 🎓 Education
 
-- **Lead** – Microsoft Learn Student Ambassador, SVNIT (2021-2022)
-- **Head** – Sponsorship Committee, Cultural Festival SVNIT (2021-2022)
+**B.Tech, Computer Science and Technology**
+Sardar Vallabhbhai National Institute of Technology, Surat (2019-2023)
+
+### 📜 Certifications
+
+- Model Context Protocol (MCP): Hands-On with Agentic AI — LinkedIn (Mar 2026)
+- Software Architecture Foundations — LinkedIn (Aug 2025)
+
+### 🏅 Leadership
+
+- **Lead** — Microsoft Learn Student Ambassador, SVNIT (2021-2022)
+- **Head** — Sponsorship Committee, Cultural Festival SVNIT (2021-2022)
 
 ---
 

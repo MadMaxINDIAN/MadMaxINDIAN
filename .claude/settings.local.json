@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Naman Khater/OneDrive/Documents/Claude//**)",
+      "Read(//c/Users/Naman Khater/Documents//**)",
+      "Bash(cmd.exe /c \"dir \"\"C:\\\\Users\\\\Naman Khater\\\\OneDrive\\\\Documents\\\\Claude\\\\Job Search\"\" 2>&1\")",
+      "Bash(cmd.exe /c \"copy \"\"C:\\\\Users\\\\Naman Khater\\\\OneDrive\\\\Documents\\\\Claude\\\\Job Search\\\\Naman_Khater_Resume.pdf\"\" \"\"C:\\\\Repos\\\\namankhater\\\\MadMaxINDIAN\\\\Naman_Khater_Resume.pdf\"\" 2>&1\")",
+      "Bash(cmd.exe /c \"powershell -Command \"\"Copy-Item -Path ''C:\\\\Users\\\\Naman Khater\\\\OneDrive\\\\Documents\\\\Claude\\\\Job Search\\\\Naman_Khater_Resume.pdf'' -Destination ''C:\\\\Repos\\\\namankhater\\\\MadMaxINDIAN\\\\Naman_Khater_Resume.pdf'' -ErrorAction Stop; Write-Host ''Copied successfully''\"\" 2>&1\")",
+      "Bash(powershell.exe -Command \"Test-Path ''C:\\\\Users\\\\Naman Khater\\\\OneDrive\\\\Documents\\\\Claude\\\\Job Search\\\\Naman_Khater_Resume.pdf''\")",
+      "Bash(powershell.exe -Command \"Get-ChildItem ''C:\\\\Users\\\\Naman Khater\\\\OneDrive\\\\Documents\\\\'' -Recurse -Filter ''*.pdf'' 2>&1 | Select-Object -First 20\")",
+      "Bash(powershell.exe -Command \"Copy-Item -Path ''C:\\\\Users\\\\Naman Khater\\\\OneDrive\\\\Documents\\\\Claude\\\\Projects\\\\Job Search\\\\Naman_Khater_Resume.pdf'' -Destination ''C:\\\\Repos\\\\namankhater\\\\MadMaxINDIAN\\\\Naman_Khater_Resume.pdf''; Write-Host ''Done''\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

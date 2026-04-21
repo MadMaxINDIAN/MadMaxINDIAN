@@ -1,190 +1,135 @@
 %-------------------------
-% Resume in Latex
-% Author : Sourabh Bajaj
-% Website: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
-
-\documentclass[letterpaper,10.5pt]{article}
-
-\usepackage{fontawesome}
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
-\usepackage{fancyhdr}
-\usepackage{ragged2e}
-\usepackage{enumitem}
-
-\linespread{0.95}
-\setlength{\parskip}{0pt}
-\setlength{\parsep}{0pt}
-\setlength{\topsep}{2pt}
-\setlength{\partopsep}{0pt}
-\setlength{\itemsep}{1pt}
-\setlength{\leftmargini}{10pt}
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.65in}
-\addtolength{\evensidemargin}{-0.375in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-6pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
-
+% Naman Khater - Resume
+% Tailored for enterprise SaaS / full-stack + AI roles
 %-------------------------
-% Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-4pt}}
-  }
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[margin=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+\definecolor{accent}{HTML}{1F3A5F}
+
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\normalsize\bfseries\color{accent}\MakeUppercase}
+  {}{0em}{}
+  [\color{accent}\vspace{-4pt}\titlerule\vspace{-2pt}]
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+
+\setlist[itemize]{leftmargin=14pt, topsep=2pt, itemsep=1pt, parsep=0pt}
+
+\newcommand{\jobheader}[4]{%
+  \noindent\textbf{#1} $\vert$ #2 \hfill #3 \\
+  \textit{\small #4}\vspace{1pt}
 }
 
-\newcommand{\resumeSubheading}[4]{
-  \vspace{1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt}
+\newcommand{\projectheader}[3]{%
+  \noindent\textbf{#1} \hfill #2 \\
+  \textit{\small Tech: #3}\vspace{-2pt}
 }
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
-
-\renewcommand{\labelitemii}{$\circ$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*, itemsep=3pt, topsep=4pt, parsep=0pt, partopsep=0pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \begin{document}
-\justifying
+
 %----------HEADING-----------------
-\vspace{-50pt}
 \begin{center}
-    {\Large \textbf{Naman Khater}} \\[2pt]
-    \href{mailto:naman22khater@gmail.com}{naman22khater@gmail.com} $\vert$
-    +91-9586048530 $\vert$
-    \href{https://github.com/virtualthree}{Github: https://github.com/MadMaxINDIAN} $\vert$
-    \href{https://www.linkedin.com/in/naman-22-khater/}{Linkedin: naman-22-khater}
+  {\LARGE\bfseries NAMAN KHATER}\\[3pt]
+  \small Mumbai, India $\vert$ (+91) 958-604-8530 $\vert$
+  \href{mailto:naman22khater@gmail.com}{naman22khater@gmail.com} $\vert$
+  \href{https://www.linkedin.com/in/naman-22-khater/}{LinkedIn} $\vert$
+  \href{https://github.com/MadMaxINDIAN}{GitHub} $\vert$
+  \href{https://namankhater.com}{namankhater.com}
 \end{center}
 
+%----------SUMMARY-----------------
+\section{Professional Summary}
+Full-stack Software Engineer with 3+ years of experience building scalable enterprise SaaS applications using \textbf{Angular}, \textbf{React}, \textbf{ASP.NET}, and \textbf{Node.js}. Proven track record of accelerating feature delivery by \textbf{30\%}, improving system performance by \textbf{20\%}, and integrating Generative AI capabilities that boosted product efficiency by \textbf{40\%}. Independently architected \textbf{ECIP}, a production-grade AI code intelligence platform spanning 8 microservices and 50+ repositories. Experienced across end-to-end development lifecycles, architecture design, and cross-functional collaboration to deliver impactful client-facing solutions.
 
-%-----------EXPERIENCE-----------------
-\section{Experience}
-\vspace{1pt}
-\textbf{Goldman Sachs}\hfill{Bengaluru, Karnataka}
-\newline
-\emph{{Software Engineer}
-\hfill{July 2023 - Present}}
-    \resumeItemListStart
-        \item{\textbf{COSMOS Upgrade}: Redesigned a modern React UI with \textbf{10+} screens, enhancing user experience and maintainability. Migrated queries from IQ to Snowflake, achieving a \textbf{40\%} reduction in latency. Optimized backend performance by implementing caching, cutting REST API response from \textbf{7 minutes} to \textbf{10 seconds}.}
-        \item{\textbf{Materialization Project}: Optimized calculation logic to source \textbf{10M+} rows, reducing IQ warehouse load and cutting processing time by \textbf{30\%}, enhancing balance sheet generation for billions in daily/monthly transactions.}
-        \item{\textbf{Evolve}: Led a critical project to align firm's SBH hierarchy with Mandate hierarchy, redesigning data models and developed logic to restate balance sheet to meet MRIA reporting requirements.}
-        \item{\textbf{Tech Risk Remediation}: Led a team of 6 to remediate \textbf{30+} tech risk findings, enhancing system security and implementing best cyber and information security practices.}
-    \resumeItemListEnd
-    \vspace{3pt}
-    \textbf{Tech Stack: }{Java, REST APIs, Multithreading/Concurrency, TypeScript, React, SQL, Snowflake, ORM, Agile, CI/CD, Web Development}
+%----------SKILLS-----------------
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Languages:} & Python, Java, C, JavaScript, TypeScript, SQL \\
+\textbf{Frontend:} & React, Angular, Next.js, HTML5, CSS3, Tailwind CSS \\
+\textbf{Backend:} & Node.js, ASP.NET, Django, Spring Boot, REST APIs, GraphQL, Microservices \\
+\textbf{Cloud \& Data:} & AWS (EC2, S3, Lambda), Azure, MongoDB, PostgreSQL (pgvector), Redis, Kafka, SQL Server \\
+\textbf{DevOps \& Tools:} & Docker, Kubernetes, Jenkins, Git, GitHub Actions, CI/CD, Postman \\
+\textbf{AI/ML:} & Generative AI Integration, LLM APIs, Model Context Protocol (MCP), Vector Search, Embeddings \\
+\end{tabularx}
 
+%----------EXPERIENCE-----------------
+\section{Professional Experience}
 
-%-----------EXPERIENCE-----------------
-\section{Internship Experience}
-\vspace{1pt}
-\textbf{Goldman Sachs}\hfill{Bengaluru, Karnataka}
-\newline
-\emph{{Software Engineering Intern}
-\hfill{June 2022 - July 2022}}
-    \resumeItemListStart
-        \item{\textbf{Containerization}: Spearheaded containerization of the firm's transfer-pricing and lockup platform using \textbf{Docker}, and deployed container images on \textbf{Kubernetes} clusters for scalable, efficient application delivery.}
-        \item{\textbf{Queueing Adjustments}: Implemented queue and export adjustments with orchestration throttling for Java calculations, delivering latest data \textbf{~2 hours} earlier for improved availability.}
-    \resumeItemListEnd
-    \vspace{3pt}
-    \textbf{Tech Stack: }{Java, Microservices, REST APIs, React, JavaScript, Docker, Kubernetes}
+\jobheader{Software Engineer}{GEP Solutions}{Jun 2023 - Present}{Navi Mumbai, India}
+\begin{itemize}
+  \item Engineered low-code solutions using \textbf{Angular} and \textbf{ASP.NET}, accelerating feature development by \textbf{30\%} and streamlining client customization across \textbf{15+} enterprise modules.
+  \item Resolved complex design constraints in low-code modules, owning the full development lifecycle from architecture to deployment and enhancing system scalability by \textbf{20\%}.
+  \item Partnered with the Generative AI team to integrate \textbf{AI-powered features} into the platform, improving usability and elevating product efficiency by \textbf{40\%} for end users.
+  \item Refactored and optimized legacy codebases, reducing technical debt by \textbf{25\%} and cutting bulk data processing time by \textbf{40\%} through asynchronous workflows and query optimization.
+  \item Coordinated with cross-functional teams (product, design, QA) to translate business requirements into solutions, playing a pivotal role in a record-setting customer onboarding completed in \textbf{20\%} less time.
+\end{itemize}
 
+\jobheader{Software Engineer Intern}{GEP Worldwide}{May 2022 - Jul 2022}{Mumbai, India}
+\begin{itemize}
+  \item Developed UI/UX components and automated API testing using \textbf{React}, \textbf{Node.js}, and \textbf{Cypress}, improving test coverage and reducing manual QA effort by \textbf{30\%}.
+  \item Contributed to the test automation framework, enabling faster regression cycles and improving release confidence.
+\end{itemize}
 
-%-----------EDUCATION-----------------
-\section{Education}
-\vspace{1pt}
-\textbf{Sardar Vallabhbhai National Institute of Technology}\hfill{Surat, Gujarat}
-\newline
-\emph{{Bachelor of Technology in Computer Science}
-\itemListStart
-  \myItem{Learnt Data Structures and Algorithms (DSA) and Agile methodologies in academic and project work, with the potential to improve software performance and accelerate delivery timelines by up to 25\%.}
-  \myItem{Led the Microsoft Student Chapter at NIT Surat, promoting the adoption of emerging technologies among students through workshops, seminars, and hands-on projects impacting over 2000 students.}
-\itemListEnd
-\hfill{2019 - 2023}}
+\jobheader{Junior Developer}{DSC NIT Surat (Google DSC)}{Jun 2020 - Jun 2021}{Surat, India $\vert$ Part-time}
+\begin{itemize}
+  \item Built web applications and mentored peers in \textbf{JavaScript} development as part of the Google Developer Student Club, supporting technical workshops and hackathons.
+\end{itemize}
 
-
-%-----------PROJECTS-----------------
+%----------PROJECTS-----------------
 \section{Projects}
-\vspace{1pt}
-\textbf{Efficient Plant Disease Detection - Nature Inspired Optimization Models}
-\hfill{Sep 2022 - Mar 2023}
-\newline
-\emph{Implementation}
-    \resumeItemListStart
-        \item{\textbf{Deep Learning Techniques}: Leveraged deep learning architectures (ResNet50, VGG16, MobileNetV2, DenseNet121) and integrated Nature-Inspired Optimization algorithms to enhance plant disease detection.}
-        \item{\textbf{Model Performance}: Identified particle swarm optimization as the best performing algorithm for maize disease classification (\textbf{96. 2\%} accuracy in 1.02 s), while demonstrating the superiority of the whale optimization Algorithm on the tomato dataset (\textbf{97.3\%} accuracy in 6.27s).}
-    \resumeItemListEnd
-    \vspace{3pt}
-\textbf{Tech Stack: }{Python, Jupyter Notebook, Keras}\\[8pt]
-% \newline
-\textbf{Realtime Chat Application}
-\hfill{Jan 2021 - May 2021}
-\newline
-\emph{\href{https://github.com/virtualthree/Realtime-Chat-Application}{Github}}
-    \resumeItemListStart
-        \item{\textbf{Implementation}: Built a text messaging app in Java, designed UI in Figma and XML, and integrated Firebase for real-time data storage and OneSignal for push notifications.}
-    \resumeItemListEnd
-    \vspace{3pt}
-    \textbf{Tech Stack: }{Java, XML, Firebase, Android SDK}
 
-%--------ACHIEVEMENTS------------
-\section{Achievements}
-\vspace{3pt}
- \resumeSubHeadingListStart
-   \item{
-     Ranked in \textbf{Top-10} teams in \textbf{Productathon’22} organised by IIT, Roorkee.}
-   \item{
-   Secured \textbf{Global Rank 44} in \href{https://www.codechef.com/users/virtual_name}{\underline{Codechef}} Starters 7, July 2021
-   }
-   \item{
-   Secured \textbf{Global Rank 1100} in Google Hash-Code, 21
-   }
- \resumeSubHeadingListEnd
-%--------SKILLS SUMMARY------------
-\section{Skills Summary}
-\vspace{3pt}
-     \textbf{Languages}{: Java, C++, JavaScript, SQL, TypeScript}\\[2pt]
-     \textbf{Technologies}{: AWS, Snowflake, React, Docker, Kubernetes}\\[2pt]
-     \textbf{CS Fundamentals}{: Object-Oriented Programming, DBMS, Data Structures and Algorithms, OS}\\[2pt]
-     \textbf{Version Control}{: Git, Gitlab}
-     
+\projectheader{Enterprise Code Intelligence Platform (ECIP)}{2025 - Present}{TypeScript, Node.js, PostgreSQL (pgvector), Redis, Kafka, Docker, Kubernetes, MCP, Tree-sitter, Voyage AI}
+\begin{itemize}
+  \item Architected and built (solo) a production-grade AI code search engine as \textbf{8 independent microservices}, delivering semantically-aware code context to AI assistants (GitHub Copilot, Cursor, Claude Code) across \textbf{50+} repositories with a \textbf{p95 latency of 475 ms}.
+  \item Engineered a branch-aware \textbf{Language Server Protocol} implementation with Tree-sitter parsing and \textbf{1024-dim Voyage AI embeddings} stored in pgvector, solving ``Lost in the Middle'' context degradation for large codebases.
+  \item Shipped a \textbf{19-container Docker stack} with \textbf{1,434+ unit tests}, cross-repo MCP Server federation with registry-based discovery, Ed25519 license signing, Stripe metering, and a FeatureGate system.
+\end{itemize}
 
+\projectheader{Mongo Architect}{Sep 2025 - Dec 2025}{React.js, MongoDB, JSON, VS Code Extension API}
+\begin{itemize}
+  \item Built a visual MongoDB schema modeler enabling developers to design database schemas visually and export/import them as JSON files, streamlining database planning workflows.
+  \item Integrated with VS Code as an extension, bringing schema design directly into the development environment.
+\end{itemize}
 
-%-------------------------------------------
+\projectheader{E-Commerce Platform}{2023}{React, Node.js, MongoDB, Docker, Next.js}
+\begin{itemize}
+  \item Created a modular website starter template that reduced project setup time by \textbf{50\%}, enabling faster go-to-market for clients.
+  \item Integrated payment gateways and order management systems, reducing transaction time by \textbf{10-15\%} through background task processing and async job queues.
+\end{itemize}
+
+\projectheader{Loan Management Software}{2022}{Angular, Node.js, MongoDB, AWS}
+\begin{itemize}
+  \item Built a full-stack application reducing manual loan tracking by \textbf{70\%}, with dashboards for loan data accessibility and reporting efficiency.
+  \item Implemented secure authentication, automated loan processing workflows (reducing errors by \textbf{60\%}), and real-time financial reporting tools for stakeholders.
+\end{itemize}
+
+%----------EDUCATION-----------------
+\section{Education}
+\noindent\textbf{B.Tech, Computer Science and Technology} $\vert$ SVNIT Surat \hfill 2019 - 2023 \\
+\textit{\small Sardar Vallabhbhai National Institute of Technology, Surat}
+\begin{itemize}
+  \item Led the \textbf{Microsoft Learn Student Ambassador} program at SVNIT, promoting emerging technologies through workshops and hands-on projects impacting \textbf{2,000+ students}.
+  \item Head of Sponsorship Committee, Cultural Festival SVNIT (2021-2022).
+\end{itemize}
+
+%----------CERTIFICATIONS-----------------
+\section{Certifications}
+\begin{itemize}
+  \item \textbf{Model Context Protocol (MCP): Hands-On with Agentic AI} --- LinkedIn (Mar 2026)
+  \item \textbf{Software Architecture Foundations} --- LinkedIn (Aug 2025)
+\end{itemize}
+
 \end{document}

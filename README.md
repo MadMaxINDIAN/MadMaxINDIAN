@@ -54,6 +54,22 @@ Full-stack application reducing manual loan tracking by 70%, with automated work
 
 ---
 
+
+### 🧩 VS Code Extensions
+
+**[MongoDB Architect](https://marketplace.visualstudio.com/items?itemName=Naman09Khater.mongodb-architect)** — 197+ installs
+Visual MongoDB schema modeler with drag-and-drop interface. Export to Mongoose, TypeScript, and JSON Schema.
+*Tech: React, React Flow, VS Code Extension API, MongoDB*
+
+**[Data Format Converter](https://marketplace.visualstudio.com/items?itemName=Naman09Khater.data-converter-vscode)** — 49+ installs
+Convert between JSON, XML, and YAML formats with a single keyboard shortcut.
+*Tech: TypeScript, VS Code Extension API*
+
+**[JSON Mapper](https://marketplace.visualstudio.com/items?itemName=Naman09Khater.json-mapper-vscode)** — 34+ installs
+Visual JSON transformation tool with drag-and-drop mapping and 20+ pre-built functions.
+*Tech: React, TypeScript, VS Code Extension API*
+
+---
 ### 🛠️ Skills
 
 - **Languages**: Python, Java, C, JavaScript, TypeScript, SQL
